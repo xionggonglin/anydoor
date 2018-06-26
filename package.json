@@ -1,0 +1,26 @@
+{
+  "name": "anydoor",
+  "version": "0.0.1",
+  "description": "Tiny NodeJs Static Web Server",
+  "main": "build/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "handlebars": "^4.0.11"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "eslint": "^5.0.0",
+    "pre-commit": "^1.2.2"
+  }
+}
